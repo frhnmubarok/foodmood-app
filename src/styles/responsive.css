@@ -1,0 +1,226 @@
+.list-resto {
+  display: grid;
+  grid-row-gap: 16px;
+}
+
+.list-favorite {
+  display: grid;
+  grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 699px) {
+  .navigation {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding: 5em 0;
+    height: 175px;
+    flex-wrap: wrap;
+  }
+
+  .nav-list-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobile-navigation {
+    display: inline;
+  }
+
+
+
+  /* TODO: Testing */
+
+}
+
+@media screen and (min-width: 700px) {
+  .header__menu {
+    display: none;
+  }
+
+
+  /* .mobile-navbar {
+		display: none;
+	} */
+}
+
+@media screen and (min-width: 700px) {
+  .list-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .list-favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .nav__list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .list-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .list-favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .headline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .headline__content {
+    padding: 16px 32px;
+  }
+}
+
+
+@media screen and (min-width: 975px) {
+  .list-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .list-favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 970px) {
+
+  .profile_container,
+  .info,
+  .back {
+    margin: 60px 33px 0px;
+  }
+
+  .profile_container {
+    flex-direction: column;
+  }
+
+  .profile_img_section {
+    margin: 0 auto;
+  }
+
+  .profile_img-LG {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .profile_desc_section {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-left: 33px;
+  }
+
+  .restaurant-details__name {
+    margin-top: 50px;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .review__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .hero {
+    background-image: linear-gradient(80deg,
+        rgba(53, 76, 98, 0.51) 55%,
+        rgba(158, 43, 43, 0.17)),
+      url("/images/heros/hero-large.jpg");
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .review__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero {
+    background-image: linear-gradient(80deg,
+        rgba(53, 76, 98, 0.51) 55%,
+        rgba(158, 43, 43, 0.17)),
+      url("/images/heros/hero-small.jpg");
+  }
+}
+
+@media (max-width: 475px) {
+  li {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 435px) {
+  .link_img {
+    height: 60px;
+    width: 60px;
+  }
+
+  li p {
+    margin-left: 10px;
+  }
+
+  .link_img_wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .box {
+    width: 130px;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1400px) {
+  main {
+    max-width: 1400px;
+  }
+}

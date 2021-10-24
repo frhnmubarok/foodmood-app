@@ -1,0 +1,54 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.61d230fcb5500244b67ead90c00daca0.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_384x384.71e953bde8349105bbe298e2ebca45c1.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_256x256.88a3c9ac1e9cea6ced24b5f78576507c.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_192x192.f5252cb10076dba80e23b702171a32d0.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_128x128.59a68b7b252c20d71c5316db0f98e19b.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_96x96.63142a8ac4d2cc627d220bf2e93d2299.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_72x72.8ab6faf4a3b8f549d75886640747dc8b.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "FoodMood Apps",
+  "short_name": "FoodMood",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "description": "Boost your mood on FoodMood",
+  "background_color": "#ffffff",
+  "theme_color": "#f54748"
+}
